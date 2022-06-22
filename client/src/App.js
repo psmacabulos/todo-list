@@ -20,11 +20,11 @@ class App extends Tasks {
                         <TextField
                             variant="outlined"
                             size="small"
-                            style={{ width: "80%" }}
+                            style={{ width: "78%", margin:"0 5px 0 0" }}
                             value={this.state.currentTask}
                             required={true}
                             onChange={this.handleChange}
-                            placeholder="Add New TO-DO"
+                            placeholder="Add your tasks here..."
                         />
                         <Button
                             style={{ height: "40px" }}

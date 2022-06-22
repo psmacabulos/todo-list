@@ -17,13 +17,13 @@
 }
 
 .container {
-    width: 500px;
+    width: 600px;
     min-height: 300px;
     padding: 10px;
 }
 
 .task_container {
-    margin: 10px 0;
+    margin: 10px 10px;
     cursor: pointer;
 }
 
